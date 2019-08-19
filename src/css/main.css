@@ -1,0 +1,66 @@
+@import url('normalize.css');
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: 'Roboto Condensed', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-image: url('../pics/back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+
+
+/* .main-heading {
+  display: block;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.main-subheading {
+  display: block;
+  margin-top: 0px;
+  font-weight: 300;
+  text-align: end;
+}
+
+.main-description {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-button {
+  width: 150px;
+  height: 40px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 4px;
+} */
