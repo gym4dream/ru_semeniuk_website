@@ -14,6 +14,7 @@ body {
   color: white;
 }
 
+
 .buttons-box {
   display: flex;
   justify-content: space-between;
@@ -23,44 +24,28 @@ body {
   opacity: 0.6;
 }
 
-
-
-/* .main-heading {
-  display: block;
-  font-weight: 400;
-  font-size: 70px;
-  margin-bottom: 0px;
-  border: 0px;
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 64px;
+  }
 }
 
-.main-subheading {
-  display: block;
-  margin-top: 0px;
-  font-weight: 300;
-  text-align: end;
+.modal-header {
+  border-bottom: none;
 }
 
-.main-description {
-  display: block;
-  font-weight: 300;
-  font-size: 16px;
+.modal-footer {
+  border-top: none;
 }
 
-.left-box {
-  display: flex;
-  flex-direction: column;
+.modal-content {
+  color: black;
 }
 
-.main-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.callme-wrapper {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  border: none;
 }
-
-.main-button {
-  width: 150px;
-  height: 40px;
-  background: none;
-  border: 2px solid white;
-  border-radius: 4px;
-} */
